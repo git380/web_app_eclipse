@@ -38,7 +38,7 @@ public class FormSampleServlet extends HttpServlet {
 		} else {
 			if (gender.equals("0")) {
 				gender = "男性";
-			} 
+			}
 			if (gender.equals("1")) {
 				gender = "女性";
 			}

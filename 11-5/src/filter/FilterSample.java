@@ -37,7 +37,9 @@ public class FilterSample implements Filter {
 		      ServletResponse response, FilterChain chain)
 		      throws IOException,
 		      ServletException {
-		    //request.setCharacterEncoding("UTF-8");
+		    request.setCharacterEncoding("UTF-8");
+	    	//request.setCharacterEncoding("Shift-JIS");
+	    	System.out.println("aaaaaaaaaaa");
 		    chain.doFilter(request, response);
 		  }
 	/**
